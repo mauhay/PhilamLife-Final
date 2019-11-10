@@ -1,0 +1,8 @@
+% Program P1_B
+% Create an example sound signal
+A = 0.9; F = 2200; % Amplitude and frequency of the sinusoid
+t = 0: 0.0001: 3; % Time duration of the sound to be created
+X = A*cos(2*pi*F*t); % Sinusoidal signal
+Fs = 8000; Nbits = 16; % Sampling rate and number of bits per sample
+Wavefile = 'Example_sound.wav'; % File name of the sound file
+ audiowrite (Wavefile, X, Fs) 

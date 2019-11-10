@@ -1,0 +1,10 @@
+﻿body {
+    height: 100%;
+    width: 100%;
+    background-image: url('Images/Vitality02.jpg');
+    background-size: cover;
+    background-position: stretch;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
